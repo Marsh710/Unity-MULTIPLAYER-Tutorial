@@ -37,6 +37,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4044123954519976}
+  - component: {fileID: 114694349494310346}
+  - component: {fileID: 114847756886403836}
   m_Layer: 0
   m_Name: PlayerUnit
   m_TagString: Untagged
@@ -113,6 +115,49 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1795201434250482}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114694349494310346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829684951292882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 25
+    i1: 150
+    i2: 148
+    i3: 81
+    i4: 235
+    i5: 83
+    i6: 18
+    i7: 68
+    i8: 88
+    i9: 158
+    i10: 59
+    i11: 47
+    i12: 138
+    i13: 213
+    i14: 56
+    i15: 218
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114847756886403836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829684951292882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1320b290da64264f9d1acf95681f1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135243821028975920
 SphereCollider:
   m_ObjectHideFlags: 1
